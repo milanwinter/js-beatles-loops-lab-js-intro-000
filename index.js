@@ -1,4 +1,4 @@
-let fusion = []// add solution here
+let fusion = []
 function theBeatlesPlay(musicians,instruments) {
   for (let i = 0; i < 4; i++) {
     fusion.push(`${musicians[i]} plays ${instruments[i]}`)
@@ -8,12 +8,15 @@ function theBeatlesPlay(musicians,instruments) {
 let facts = ["He was the last Beatle to learn to drive",
             "He was never a vegetarian",
             "He was a choir boy and boy scout",
-            "He hated the sound of his own voice"]
+            "He hated the sound of his own voice",
+            "While on tour, he enjoyed playing Monopoly",
+            "Harmonica was the first instrument Lennon learned to play"]
 
 function johnLennonFacts (facts) {
   let i = 0
+  let jlfacts = []
   while (i<facts.length) {
-  facts.push("${facts[i]}!!!")
+  jlfacts.push(`${facts[i]}!!!`)
   }
-  return facts;
+  return jlfacts;
 }
